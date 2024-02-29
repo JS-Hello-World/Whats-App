@@ -1,0 +1,61 @@
+#Wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #232D36;
+  color: white;
+  padding: 10px 12px 10px 2px;
+  height: 52px;
+}
+
+header .BackIconContainer {
+  width: 24px;
+  height: 24px;
+}
+
+header .UserName {
+  flex: 1;
+  padding: 0 10px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  background-color: #232D36;
+  flex: 1;
+}
+
+section .Talks {
+  flex: 1;
+}
+
+.Talks .Talks__Row {
+  display: flex;
+  padding: 8px 12px;
+}
+
+.Talks .Talks__Me {
+  justify-content: flex-end;
+}
+
+.Talks .Talks__You {
+  justify-content: flex-start;
+}
+
+.Talks .Comment {
+  background-color: #1E2A31;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.Talks .Talks__Me .Comment {
+  background-color: yellow;
+  color: black;
+}
