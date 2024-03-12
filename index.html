@@ -4,37 +4,76 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Whats App</title>
+  <link rel="stylesheet" href="./styles.css">
 </head>
-<body style="margin: 0;">
-  <div style="display: flex; flex-direction: column; height: 100vh;">
-    <div style="background-color: #232D36; color: #FFF; display: flex; align-items: center; padding-right: 24px; padding-left: 24px; height: 55px;">
-      <div style="margin-right: 26px;">
+<body>
+  <div id="Wrap">
+
+    <div id="Header">
+      <div id="BackButton">
         <img src="./assets/icons/akar-icons_arrow-down-left.svg" alt="뒤로가기">
       </div>
-      <div style="flex: 1;">
-        <div style="color: #D5DDE0; font-weight: 700; font-size: 20px;">New broadcast</div>
-        <div style="color: #EAF3FA; font-weight: 700; font-size: 14px;">0 of 266 selected</div>
+      <div id="StatusArea">
+        <div id="Title">New broadcast</div>
+        <div id="Status">0 of 266 selected</div>
       </div>
       <div>
         <img src="./assets/icons/ant-design_search-outlined.svg" alt="검색">
       </div>
     </div>
-    <div style="background-color: #101D25; flex: 1;">
-      <p style="color: #69767C; padding: 0 24px; text-align: center;">
+
+    <div id="Section">
+      <p id="Notice">
         Only contacts with +919333040200 in their address book<br>
         will recieve your broadcast messages.
       </p>
-      <div>
-        <div style="display: flex; align-items: center; padding: 0 24px;">
-          <div style="margin-right: 20px;">
-            <img style="border-radius: 50%; width: 40px; height: 40px;" src="./assets/images/profile.jpg" alt="Jane Doe">
+      <div id="FriendsList">
+        <!-- 사용자 프로필 영역 시작 -->
+        <div class="Friend" tabindex="0" role="button">
+          <div class="Friend__Avatar">
+            <img class="Friend__AvatarImage" src="./assets/images/profile.jpg" alt="Jane Doe">
           </div>
-          <div>
-            <div>Jane Doe</div>
-            <div>Hey there! I am using WhatsApp</div>
+          <div class="Friend__Info">
+            <div class="Friend__Info--Name">Jane Doe</div>
+            <div class="Friend__Info--Message">Hey there! I am using WhatsApp</div>
+          </div>
+        </div>
+        <!-- 사용자 프로필 영역 끝 -->
+
+        <div class="Friend" tabindex="0" role="button">
+          <div class="Friend__Avatar">
+            <img class="Friend__AvatarImage" src="./assets/images/profile.jpg" alt="Jane Doe">
+          </div>
+          <div class="Friend__Info">
+            <div class="Friend__Info--Name">Jane Doe</div>
+            <div class="Friend__Info--Message">Hey there! I am using WhatsApp</div>
+          </div>
+        </div>
+
+        <div class="Friend" tabindex="0" role="button">
+          <div class="Friend__Avatar">
+            <img class="Friend__AvatarImage" src="./assets/images/profile.jpg" alt="Jane Doe">
+          </div>
+          <div class="Friend__Info">
+            <div class="Friend__Info--Name">Jane Doe</div>
+            <div class="Friend__Info--Message">Hey there! I am using WhatsApp</div>
+          </div>
+        </div>
+
+        <div class="Friend" tabindex="0" role="button">
+          <div class="Friend__Avatar">
+            <img class="Friend__AvatarImage" src="./assets/images/profile.jpg" alt="Jane Doe">
+          </div>
+          <div class="Friend__Info">
+            <div class="Friend__Info--Name">Jane Doe</div>
+            <div class="Friend__Info--Message">Hey there! I am using WhatsApp</div>
           </div>
         </div>
       </div>
+
+      <button class="Button Button--Rounded Button--Green CheckButton">
+        <img src="./assets/icons/teenyicons_tick-outline.svg" alt="">
+      </button>
     </div>
   </div>
 </body>

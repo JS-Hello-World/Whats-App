@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+}
+
+#Wrap {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#Header {
+  background-color: #232D36;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  padding-right: 24px;
+  padding-left: 24px;
+  height: 55px;
+}
+
+#BackButton {
+  margin-right: 26px;
+}
+
+#StatusArea {
+  flex: 1;
+}
+
+#Title {
+  color: #D5DDE0;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+#Status {
+  color: #EAF3FA;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+#Section {
+  background-color: #101D25;
+  flex: 1;
+  overflow: auto;
+}
+
+#Notice {
+  color: #69767C;
+  padding: 0 24px;
+  text-align: center;
+}
+
+#FriendsList .Friend {
+  display: flex;
+  align-items: center;
+  padding: 8px 24px;
+  background-color: #101D25;
+}
+#FriendsList .Friend:hover {
+  background-color: #203745;
+}
+#FriendsList .Friend__Avatar {
+  margin-right: 20px;
+}
+#FriendsList .Friend__AvatarImage {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+#FriendsList .Friend__Info--Name {
+  color: #D3DAE0;
+  font-size: 21px;
+}
+#FriendsList .Friend__Info--Message {
+  color: #939CA1;
+  font-size: 17px;
+}
+
+.Button {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.Button--Rounded {
+  border-radius: 50%;
+}
+
+.Button--Green {
+  background-color: #00B09C;
+  transition: .2s background-color;
+}
+.Button--Green:hover {
+  background-color: #009a88;
+}
+
+.CheckButton {
+  width: 54px;
+  height: 54px;
+  position: fixed;
+  right: 24px;
+  bottom: 28px;
+}
