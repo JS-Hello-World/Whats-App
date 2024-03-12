@@ -1,0 +1,172 @@
+body {
+ margin: 0;   
+}
+
+#Wrap{ 
+    display: flex; 
+    flex-direction: column;
+    height: 100vh;
+}
+
+#Header{
+    background-color: #232D36; 
+    color: #fff; 
+    display: flex; 
+    align-items: center; 
+    padding-left: 24px; 
+    padding-right: 24px; 
+    height: 55px;}
+
+#Backbutton{
+    margin-right: 26px;
+}
+
+#StatusArea{
+    flex: 1;
+}
+Title{
+    color: #D5DDE0;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#Status{
+    color: #EAF3FA;font-weight: 700;font-size: 14px;
+}
+#Section{
+    background-color: #101D25; 
+    flex: 1; 
+    overflow: auto
+}
+#Notice{
+    color: #69767C; 
+    padding: 0 24px; 
+    text-align: center;
+}
+.Friend{
+    display: flex;
+    align-items: center;
+    padding: 8px 24px
+    
+}
+
+#Friend:hover{
+    background-color: #203745; 
+}
+
+.Friend__Avatar{
+    margin-right: 20px;
+}
+
+.Friend__AvatarImage{
+    border-radius: 50%;
+    width: 40px; 
+    height: 40px;
+}
+
+.Friend__Info--Name{
+    font-size: 21px; 
+    color:#D3DAE0
+}
+
+.Friend__Info--Message{
+    font-size: 17px; 
+    color:#939CA1
+}
+
+.Button{
+   
+ 
+     
+    border: none;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    cursor: pointer; 
+    
+}
+
+.Button--Rounded{
+    border-radius: 50%;
+}
+
+.Button--Green{
+    background-color:#00B09C;
+    transition: .2s background-color;
+}
+.Button--Green:hover{
+    background-color:#009A88;
+}
+
+
+.CheckButton{
+    width: 54px; 
+    height: 54px; 
+    position:fixed; 
+    right: 24px; 
+    bottom: 28px;"
+}
+
+#header{
+    background-color: #232D36; 
+    color: #fff; 
+    display: flex; 
+    align-items: center; 
+    padding-left: 2px; 
+    height: 52px;
+    
+}
+
+#Stausbar{
+    background-color: #0F1E25; 
+    height: 22px;  
+}
+
+#Chatpage{ 
+    background-color: #101D25; 
+    flex: 1; 
+    overflow: auto
+}
+
+#backbutton{
+    margin-right: 10px;
+}
+
+#Profile{
+    font-size: 21px;
+    font-weight: 400;
+    color:#D3DAE0;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+#profilepicture{
+    border-radius: 50%;
+    width: 32px; 
+    height: 32px;
+    margin-right:10px;
+    
+}
+#Todayword{
+    font-size: 14px; 
+    padding: 12px 176px 10px 176px;
+    color:#9CA7AD;
+    background-color: #202B31;
+    text-align: center;
+    
+}
+#notice{
+    font-size: 14px; 
+    color:#C7BE8A;
+    text-align: center;
+    background-color:#1E2A31
+    
+}
+#more{
+    padding-left: 24px; 
+}
+
+#talk{
+    padding-left: 24px; 
+}
