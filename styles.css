@@ -1,89 +1,91 @@
 body {
- margin: 0;   
+    margin: 0;   
 }
 
-#Wrap{ 
+#Wrap { 
     display: flex; 
     flex-direction: column;
     height: 100vh;
 }
 
-#Header{
+#Header {
     background-color: #232D36; 
     color: #fff; 
     display: flex; 
     align-items: center; 
     padding-left: 24px; 
     padding-right: 24px; 
-    height: 55px;}
+    height: 55px;
+}
 
-#Backbutton{
+#Backbutton {
     margin-right: 26px;
 }
 
-#StatusArea{
+#StatusArea {
     flex: 1;
 }
-Title{
+
+#Title {
     color: #D5DDE0;
     font-weight: 700;
     font-size: 20px;
 }
 
-#Status{
-    color: #EAF3FA;font-weight: 700;font-size: 14px;
+#Status {
+    color: #EAF3FA;
+    font-weight: 700;
+    font-size: 14px;
 }
-#Section{
+
+#Section {
     background-color: #101D25; 
     flex: 1; 
-    overflow: auto
+    overflow: auto;
 }
-#Notice{
+
+#Notice {
     color: #69767C; 
     padding: 0 24px; 
     text-align: center;
 }
-.Friend{
+
+.Friend {
     display: flex;
     align-items: center;
-    padding: 8px 24px
-    
+    padding: 8px 24px;
 }
 
-#Friend:hover{
+#Friend:hover {
     background-color: #203745; 
 }
 
-.Friend__Avatar{
+.Friend__Avatar {
     margin-right: 20px;
 }
 
-.Friend__AvatarImage{
+.Friend__AvatarImage {
     border-radius: 50%;
     width: 40px; 
     height: 40px;
 }
 
-.Friend__Info--Name{
+.Friend__Info--Name {
     font-size: 21px; 
-    color:#D3DAE0
+    color: #D3DAE0;
 }
 
-.Friend__Info--Message{
+.Friend__Info--Message {
     font-size: 17px; 
-    color:#939CA1
+    color: #939CA1;
 }
 
-.Button{
-   
- 
-     
+.Button{ 
     border: none;
     display: flex; 
     align-items: center; 
     justify-content: center;
     cursor: pointer; 
-    
 }
 
 .Button--Rounded{
@@ -91,48 +93,41 @@ Title{
 }
 
 .Button--Green{
-    background-color:#00B09C;
+    background-color: #00B09C;
     transition: .2s background-color;
 }
 .Button--Green:hover{
-    background-color:#009A88;
+    background-color: #009A88;
 }
 
-
-.CheckButton{
+.CheckButton {
     width: 54px; 
     height: 54px; 
-    position:fixed; 
+    position: fixed; 
     right: 24px; 
-    bottom: 28px;"
+    bottom: 28px;
 }
 
-#header{
+#Header {
     background-color: #232D36; 
     color: #fff; 
     display: flex; 
     align-items: center; 
     padding-left: 2px; 
     height: 52px;
-    
 }
 
-#Stausbar{
-    background-color: #0F1E25; 
-    height: 22px;  
-}
-
-#Chatpage{ 
+#Chatpage { 
     background-color: #101D25; 
     flex: 1; 
-    overflow: auto
+    overflow: auto;
 }
 
-#backbutton{
+#Backbutton {
     margin-right: 10px;
 }
 
-#Profile{
+#Profile {
     font-size: 21px;
     font-weight: 400;
     color:#D3DAE0;
@@ -141,32 +136,37 @@ Title{
     flex: 1;
 }
 
-#profilepicture{
+#Profilepicture {
     border-radius: 50%;
     width: 32px; 
     height: 32px;
     margin-right:10px;
-    
 }
-#Todayword{
+
+#Todayword {
     font-size: 14px; 
     padding: 12px 176px 10px 176px;
-    color:#9CA7AD;
+    color: #9CA7AD;
     background-color: #202B31;
     text-align: center;
-    
 }
-#notice{
+
+#Notice {
     font-size: 14px; 
-    color:#C7BE8A;
+    color: #C7BE8A;
     text-align: center;
-    background-color:#1E2A31
-    
+    background-color: #1E2A31
 }
-#more{
+
+#More {
     padding-left: 24px; 
 }
 
-#talk{
+#Talk{
     padding-left: 24px; 
+}
+
+#Icons{
+    display: flex;
+    align-items: center;
 }
