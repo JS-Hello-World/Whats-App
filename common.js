@@ -1,5 +1,18 @@
-let friends = ['김철수', '박찬영', '박수민', '최철수', '김유리'];
+let input = document.getElementById('MessageInput');
 
-for (let i = 0; i < friends.length; i += 1) {
-  window.alert(friends[i]);
-}
+let userComment = '';
+
+input.addEventListener('input', function(event) {
+  userComment = event.target.value;
+});
+
+input.addEventListener('keyup', function(event) {
+  if (event.key == 'Enter') {
+    let talks = document.getElementById('Talks');
+    let wrapper = document.getElementsByClassName('Talks__Me').item(0).cloneNode();
+    wrapper.innerHTML = `<div class="Comment">${userComment}</div>`;
+  
+    talks.append(wrapper);
+    input.value = '';
+  }
+});
