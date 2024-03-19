@@ -9,10 +9,10 @@ body {
 }
 
 #Header {
-    background-color: #232D36; 
-    color: #fff; 
-    display: flex; 
-    align-items: center; 
+    background-color: #232D36;
+    color: #fff;
+    display: flex;
+    align-items: center;
     padding-left: 24px; 
     padding-right: 24px; 
     height: 55px;
@@ -149,13 +149,6 @@ body {
     color: #9CA7AD;
     background-color: #202B31;
     text-align: center;
-}
-
-#Notice {
-    font-size: 14px; 
-    color: #C7BE8A;
-    text-align: center;
-    background-color: #1E2A31
 }
 
 #More {

@@ -66,6 +66,7 @@ body {
 
 #NoticeWrapper {
     padding: 0 32px;
+    margin-bottom: 4px;
 }
 
 #Notice {
@@ -88,4 +89,38 @@ body {
 
 #talk{
     padding-left: 24px; 
+}
+
+.CommentWrapper {
+    padding: 8px 32px;
+    display: flex;
+    align-items: center;
+}
+
+.CommentWrapper--Me {
+    justify-content: flex-end;
+}
+
+.Comment {
+    background-color: #ccc;
+    color: white;
+    border-radius: 4px;
+    padding: 4px 8px;
+}
+.Comment--Me {
+    background-color: gold;
+}
+
+.ChatWrapper {
+    padding: 4px 8px;
+    background-color: #101D25;
+}
+.ChatForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ChatInput {
+    margin-right: 8px;
+    flex: auto;
 }
